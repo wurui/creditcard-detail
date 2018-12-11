@@ -4,6 +4,7 @@
   "apiDependencies": [
 	  {
 	    "name": "ecom-products",
+	    "selector":"_id",
 	    "LINK":[
 	    	{
 	    		"name":"apply",
