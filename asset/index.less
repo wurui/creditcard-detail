@@ -1,3 +1,79 @@
 .oxmod-creditcard-detail{
 /* CSS */
+	.maininfo{
+		text-align:center;
+		padding:30px 10px 10px;
+		overflow: hidden;
+		position: relative;
+		&:before{
+			position: absolute;
+			content: '';
+			width:1000px;
+			height:1000px;
+			
+			left:50%;
+			margin-left:-500px; 
+			border-radius: 50%;
+			top:0;
+			margin-top: -850px;
+
+			background-color: rgba(0, 0, 0, .6);
+			/*
+			//background-image: url(http://i.oxm1.cc/uploads/git/wurui/img/29yeovelrTjkxo6741Rgm91A3gcd-73.png);
+			//background-size: 50%;
+			background-repeat: no-repeat;
+			background-position: center 850px;
+			opacity: .1;
+			*/
+		}
+		img{
+			border-radius: 10px;
+			-webkit-box-reflect:below 2px -webkit-linear-gradient(top,rgba(0,0,0,0) 90%,rgba(0,0,0,0.2));
+			margin-bottom: 15px;
+
+		}
+	}
+	.brief{
+		font-size: 12px;
+		margin:5px 0;
+		color:#999;
+	}
+	.richtext{
+		line-height: 1.4;
+		padding: 10px;
+		color:#333;
+		img{
+			max-width: 100%;
+		}
+		h1,h2,h3,h4,h5,h6,p{
+			
+			margin: 10px 0 5px;
+		}
+		ul{
+			//list-style: circle inside;
+			//list-style-type:circle;
+		}
+		li{
+			//margin-left:2em;
+			//list-style-type:circle;
+			list-style: disc;
+			margin:5px 0 5px 2em;
+			
+		}
+	}
+	.center{
+		text-align:center;
+	}
+	.btn{
+		color:#fff;
+		background-color: #09c;
+		display: inline-block;
+		padding: 2px 10px;
+		width: 260px;
+		height: 32px;
+		line-height: 32px;
+		font-size: 14px;
+		text-align:center;
+
+	}
  }

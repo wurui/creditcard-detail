@@ -2,9 +2,32 @@
     <xsl:template match="/root" name="wurui.creditcard-detail">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-creditcard-detail" ox-mod="creditcard-detail">
-            <h1>
-                This is mod creditcard-detail;
-            </h1>
+            <xsl:variable select="data/ecom-products/i[1]" name="detail"/>
+
+            <xsl:for-each select="$detail">
+	            <section>
+	            	<div class="maininfo">
+	            		<img src="{media/i[type = 'image']/src}"/>
+	            		<h3>
+	            			<xsl:value-of select="title"/>
+	            		</h3>
+	            		<p class="brief">
+	            			<xsl:value-of select="brief"/>
+	            		</p>
+	            		<p>
+	            			<a class="btn" href="{LINK/apply}">立即申请</a>
+	            		</p>
+	            	</div>
+	            </section>
+	            <section>
+	            	<div class="richtext">
+		            	<xsl:value-of select="description" disable-output-escaping="yes" />
+		            </div>
+	            </section>
+	            <section class="center">
+	            	<a class="btn" href="{LINK/apply}">立即申请</a>
+	            </section>
+	        </xsl:for-each>
         </div>
     </xsl:template>
 </xsl:stylesheet>
