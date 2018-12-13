@@ -15,7 +15,7 @@
 	            			<xsl:value-of select="brief"/>
 	            		</p>
 	            		<p>
-	            			<a class="btn" href="{LINK/apply}">立即申请</a>
+	            			<a class="btn  skin-bgcolor" href="{LINK/apply}">立即申请</a>
 	            		</p>
 	            	</div>
 	            </section>
@@ -25,7 +25,7 @@
 		            </div>
 	            </section>
 	            <section class="center">
-	            	<a class="btn" href="{LINK/apply}">立即申请</a>
+	            	<a class="btn skin-bgcolor" href="{LINK/apply}">立即申请</a>
 	            </section>
 	        </xsl:for-each>
         </div>
