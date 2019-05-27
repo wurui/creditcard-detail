@@ -2,7 +2,7 @@
     <xsl:template match="/root" name="wurui.creditcard-detail">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-creditcard-detail" ox-mod="creditcard-detail">
-            <xsl:variable select="data/ecom-products/i[1]" name="detail"/>
+            <xsl:variable select="data/info-product/i[1]" name="detail"/>
 
             <xsl:for-each select="$detail">
 	            <section>

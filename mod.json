@@ -1,14 +1,15 @@
 {
-  "RULE_VERSION":"20180724",
+  "RULE_VERSION":"20190428",
   "name": "creditcard-detail",
   "apiDependencies": [
 	  {
-	    "name": "ecom-products",
+	    "name": "info-product",
 	    "selector":"_id",
 	    "LINK":[
 	    	{
 	    		"name":"apply",
-	    		"title":"申请页面"
+	    		"title":"申请页面",
+	    		"target":"user-apply-product"
 	    	}
 	    ]
 	  }

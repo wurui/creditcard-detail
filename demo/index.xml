@@ -15,12 +15,12 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <ecom-products>
+        <info-product>
             <i>
                 <title>标准信用卡</title>
                 <brief>新用户送 1000积分</brief>
                 
-                <owner>git/wurui</owner>
+                
                 <description>
                     <![CDATA[
                     <h3>    权益</h3><ul> <li>        信用卡额度可 100% 提取，境内人民币取现手续费一律低至 5 元 / 笔   </li>   <li>        单笔刷满人民币 500 元即可分期还款 </li>   <li>        消费人民币 1 元累积 1 积分，消费 1 美元累积 7 积分，周末线下消费积分翻倍  </li></ul><h3>  条款</h3><ul> <li>        年费：人民币 80 元/年，刷满 6 次免年费 </li>   <li>        积分：1 元 = 1 积分，首年双倍积分    </li>   <li>        免息期：56 天    </li></ul>
@@ -34,6 +34,6 @@
                 </media>
             </i>
 
-        </ecom-products>
+        </info-product>
     </data>
 </root>
